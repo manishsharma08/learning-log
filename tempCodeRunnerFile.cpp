@@ -1,2 +1,1 @@
-
-    }
+RootMeanSquare = sqrt(sumOfSquares/n);
