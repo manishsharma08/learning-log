@@ -1,1 +1,2 @@
-RootMeanSquare = sqrt(sumOfSquares/n);
+
+    Time etime; // end time
