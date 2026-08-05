@@ -7,13 +7,13 @@ int main(){
 
     for(int i = 0;i<10;i++){ // row
         for(int j = 0;j<10;j++){ // column
-            *(*(matrix+i)+j) = (i+1) * (j+1);
+             *(*(matrix+i)+j) = (i+1) * (j+1); // using pointers to reference to the values of matrix
         }
     }
     
 
 
-
+// for printing the matrix
 
     for(int i = 0; i < 10; i++) {
     for(int j = 0; j < 10; j++) {
